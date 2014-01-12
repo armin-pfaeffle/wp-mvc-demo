@@ -76,8 +76,6 @@ class Bootstrap
 		if (isset(static::$classMap[$className])) {
 			$classFile = static::$classMap[$className];
 		} else {
-			 //stripslashes_deep
-
 			// Split class by namespace separator and map parts to absolute path
 			$splittedQualifiedName = explode('\\', $className);
 			if ($splittedQualifiedName[0] == 'MvcDemo') {
