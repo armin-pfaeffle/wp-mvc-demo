@@ -25,13 +25,13 @@ class Controller
 		return $id;
 	}
 
-	public function render($viewFile, $args = array(), $return = false)
+	public function render($viewFile, $data = array(), $return = false)
 	{
 		$filename = $this->getViewFilename($viewFile);
 
 		// Prepare parameters
-		if (is_array($args) && count($args) > 0) {
-			extract($_data_,EXTR_PREFIX_SAME,'data');
+		if (is_array($data) && count($data) > 0) {
+			extract($data, EXTR_PREFIX_SAME, 'data');
 		}
 
 		if ($return) {
