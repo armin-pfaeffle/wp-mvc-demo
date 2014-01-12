@@ -7,6 +7,6 @@ class OtherController
 {
 	public function actionBar()
 	{
-		echo "Called controller 'OtherController' with action 'echo'.";
+		echo "Called controller 'OtherController' with action 'bar'.";
 	}
 }
