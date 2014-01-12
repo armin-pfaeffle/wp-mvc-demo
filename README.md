@@ -23,7 +23,7 @@ At the moment this plugin demo is for current Wordpress version 3.8. I do
 not know if it works with other version too, because it have not checked
 that. Try it on your own ;)
 
-Further more your server has to support PHP 5.3 or aboce because of using
+Further more your server has to support PHP 5.4 or aboce because of using
 the namespace feature. You can remove the namespaces, so the code is usable
 with earlier versions of PHP, but please check all the code then!
 
